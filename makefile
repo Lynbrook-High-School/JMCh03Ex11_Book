@@ -36,7 +36,7 @@ run: classes
 	java -cp $(JARFILES) $(MAIN)
 
 test: classes
-	$(JVM) -cp $(JARFILES) org.junit.runner.JUnitCore $(TEST)
+	java -cp $(JARFILES) org.junit.runner.JUnitCore $(TEST)
 
 # cleans up the directory
 clean:
