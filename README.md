@@ -14,3 +14,8 @@ if (currentPage < numPages) {
 Create a `Main` class with a `main` method. Let `main` create a `Book` object with 3 pages,
 call its `getNumPages` method and print out the value, then print out the value of `currentPage`,
 and finally call its `nextPage` method three times, printing out the value of `currentPage` after each call.
+
+### Instructions to run
+`make` - will compile the java files  
+`make run` - will compile and run the main()  
+`make test` - will run the unit test  
